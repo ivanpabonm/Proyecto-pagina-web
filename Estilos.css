@@ -4,7 +4,7 @@
     padding: 0;
 }
 .header{
-    background-color: #8525AD;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -25,7 +25,7 @@ ul, li{
     list-style: none;
 }
 .Link{
-    color: white;
+    color: #DC7633;
     padding: 5px;
     margin-right: 60px;
     font-family: 'Times New Roman', Times, serif;
@@ -39,4 +39,75 @@ body{
     background-image: url("Imagenes/Imagenes-Index/background.jpg");
     background-size: 100% 100%;
     background-attachment: fixed;    
+}
+.footer{
+    width: 100%;
+    background: #616A6B;
+    display: block;
+}
+.iner-footer{
+    width: 95%;
+    margin: auto;
+    padding: 30px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.footer-items{
+    width: 25%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+.footer-items h1{
+    padding: 10px 0px;
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+}
+.footer-items p{
+    color: white;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 25px;
+}
+.footer-items h2{
+    margin: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+.border{
+    height: 2px;
+    width: 40px;
+    background: #ff9800;
+}
+.footer-items ul{
+    list-style: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+.footer-items ul a{
+    text-decoration: none;
+    outline: none;
+    color: white;
+    transition: 0.3s;
+}
+.footer-items ul a :hover{
+    color: #AA0DEC;
+}
+.footer-items ul li{
+    margin: 10px;
+    height: 25px;
+}
+.footer-items li i{
+    margin-right: 20px;
+}
+.footer-bottom{
+    padding: 10px;
+    background: #99A3A4;
+    color: white;
+    font-size: 12px;
 }
