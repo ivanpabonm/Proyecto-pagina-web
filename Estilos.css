@@ -78,7 +78,22 @@ body{
     100% { margin-left: -400%;}
 }
 
-
+.Producto{
+    width: 95%;
+    height: 10%;
+    margin: auto;
+    background: white;
+}
+.Producto ul{
+    display: flex;
+    padding: 0;
+    width: 100%;
+}
+.Producto ul li{
+    padding: 7%;
+    list-style: none;
+    height: 10%;
+}
 .footer{
     width: 100%;
     background: #616A6B;
