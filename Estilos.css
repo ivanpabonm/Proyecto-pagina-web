@@ -79,6 +79,7 @@ body{
 }
 
 .Producto{
+    display: block;
     width: 95%;
     height: 10%;
     margin: auto;
@@ -92,8 +93,34 @@ body{
 .Producto ul li{
     padding: 7%;
     list-style: none;
-    height: 10%;
 }
+.Quienessomos{
+    width: 95%;
+    height:20%;
+    margin: 31px;
+    background: white;
+    border: 5px solid gray;
+    border-radius: 10px;
+    display: flex;
+}
+.Parrafo{
+    margin: 50px;
+    padding: 10px
+}
+.Parrafo h2{
+    padding: 10px;
+    margin: 1px;
+    background-color: #FFA500;
+}
+.QS{
+    width: 40%;
+    margin-left: 100px;
+    padding: 10px;
+    color: white;
+    text-align: left;
+}
+
+
 .footer{
     width: 100%;
     background: #616A6B;
