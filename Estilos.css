@@ -120,6 +120,19 @@ body{
     text-align: left;
 }
 
+.Flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.Box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    margin: 20px;
+    flex-shrink: 0 ;
+    background-color: white;
+}
 
 .footer{
     width: 100%;
