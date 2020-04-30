@@ -19,7 +19,7 @@
 .header ul{
     display: flex;
 }
-ul, li{
+.header ul, li{
     margin: 0px;
     padding: 0;
     list-style: none;
@@ -79,21 +79,28 @@ body{
 }
 
 .Producto{
-    display: block;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     width: 95%;
-    height: 10%;
     margin: auto;
-    background: white;
+    background-color: blueviolet;
 }
 .Producto ul{
     display: flex;
-    padding: 0;
+    flex-wrap: wrap;
     width: 100%;
+    margin-top: 10px;
+    
 }
-.Producto ul li{
-    padding: 7%;
-    list-style: none;
+.Producto li{
+    flex-wrap: wrap;
+    text-align: center;
+    margin: auto;
+    margin: 10px 80px 10px 80px;
+    
 }
+
 .Quienessomos{
     width: 95%;
     height:20%;
@@ -105,7 +112,8 @@ body{
 }
 .Parrafo{
     margin: 50px;
-    padding: 10px
+    padding: 10px;
+    font-size: 20px;
 }
 .Parrafo h2{
     padding: 10px;
@@ -204,4 +212,266 @@ body{
     background: #99A3A4;
     color: white;
     font-size: 12px;
+}
+
+.Main_Section{
+    padding: 5%;
+    text-align: center;
+    color: white;
+}
+.products{
+    background-image: url(Imagenes/Imagenes-Index/curve.png);
+    height: 200px;
+    background-size: cover;
+    background-position: center top;
+    padding: 20%;
+    display: flex;
+}
+.product{
+    margin-top: -240
+    px;
+    padding: 10px;
+}
+.product .content{
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0 0 1px #c1bcbc;
+}
+.img_content{
+    text-align: center;
+}
+.main_button{
+    background-color: #7acc2d;
+    width: 100%;
+    padding: 10px;
+    font-size: 12px;
+    color: white;
+    border: 0px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.main_button:hover{
+    background-color: #5e9e22;
+}
+.container{
+    max-width: 900px;
+    margin: auto;
+}
+.row{
+    display: flex;
+}
+.col1{
+    color: white;
+    width: 25%;
+    padding: 10px;
+}
+@media (max-width: 900px){
+    .row{
+        display: inherit;
+    }
+    .col1{
+        width: 100%;
+    }
+}
+body#contacto{
+    background-image: url(Imagenes/Imagenes-Index/Contacto.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: monospace;
+}
+form{
+    width: 450px;
+    margin-left: 10px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    box-sizing: content-box;
+    margin-top: 50px;
+    border-radius: 7px;
+    
+}
+h2{
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+body#contacto input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 10px;
+    border: none;
+}
+body#contacto textarea{
+    min-height: 100px;
+    max-height: 100px;
+    max-width: 100%;
+}
+#enviar, #volver{
+    background-color:#136BC8 ;
+    color: white;
+}
+@media (max-width: 480px){
+    form{
+        width: 100%;
+    }
+}
+body#usuario{
+    background-image: url(Imagenes/Imagenes-Index/usuario.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: auto;
+    font-family: monospace;
+}
+body.usuario{
+	background-image: url("grid.png");
+	height:750px;
+	
+}
+.fb-header-base{
+	width:100%;
+	height:90px;
+	position:absolute;
+	top:0;
+	left:0;
+	color:white;
+	z-index:7;
+	font-family:verdana;
+	-webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+}
+.fb-header{
+	width:100%;
+	height:90px;
+	position:absolute;
+	background:darkgray;
+	top:0;
+	left:0;
+	color:white;
+	z-index:7;
+	font-family:verdana;
+	
+}
+#form1{
+	left:750px;
+	height:60px;
+	width:180px;
+	top:20px;
+	font-family:verdana;
+	font-size:12px;
+}
+#form2, #form4{
+	left:940px;
+	height:60px;
+	width:250px;
+	top:20px;
+	font-family:verdana;
+	font-size:12px;
+}
+#form4{
+	left:1130px;
+	height:60px;
+	width:250px;
+	top:20px;
+	font-family:verdana;
+	font-size:12px;
+}
+
+body#usuario .form3{
+    margin-right: 127px;
+    width: 450px;
+    margin-left: auto;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    box-sizing: content-box;
+    margin-top: 100px;
+    border-radius: 7px;   
+}
+body#usuario .form3 input{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 10px;
+    border: none;
+}
+body#ventas{
+    background-image: none;
+    background-color: #E8E8E8;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: auto;
+    font-family: monospace;
+}
+/* Ventas*/
+.contenedor1{
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fafafa;
+    justify-content: center;
+    padding: 10px;
+ }
+ .con{
+     height: 130px;
+     width: 300px;
+ }
+ .caja1{
+     border: 1px solid green;
+     height: 260px;
+     width: 200px;
+     margin: 10px;
+     flex-wrap: wrap;
+     justify-content: center;
+ }
+ .modulo-pago{
+     padding-top: 100px;
+     display: flex;
+     flex-wrap: wrap;
+ }
+ .caja1 img { 
+     padding: inherit;
+     width: 150px;
+     height: 150px;
+     margin-left: 25px;
+ }
+ .caja1 p, h5{
+     padding: 5px;
+ }
+ .caja2{
+    border: 1px solid green;
+    height: 300px;
+    width: 250px;
+    margin: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+form#form7.form7{
+    width: 90%;
+    margin: inherit;
+    padding: inherit;
+    background: inherit;
+    box-sizing: content-box;
+}
+.Body#ventas, #form7 input{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+    height: 35px;
+    border-radius: 2px;
+    border: 1px solid gray;
+}
+.Body#ventas, #form7 label{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    
+}
+.Body#ventas, #form7 button{
+    margin-left: 10px;
+    width: 90%;
+    height: 30px;
+    background-color: green;
+    color: white;
 }

@@ -1,0 +1,24 @@
+@media (max-width: 600px){
+    .products{
+        display: inherit;
+        height: auto;
+    }
+    .product{
+        margin-top: auto;
+    }
+    .Main_Section{
+        padding: 4%;
+    }
+    .Producto ul {
+        height: auto;
+        display: inherit;
+        margin-top: auto;
+        padding: 4%;
+    }
+    .Quienessomos ImagenContainer{
+        height: auto;
+        display: inherit;
+        margin-top: auto;
+        padding: 4%;
+    }
+}
